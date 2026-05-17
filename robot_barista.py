@@ -1,7 +1,14 @@
 
 print("hello,welcome to the vv bar!!!" )
 name=input("May i know your name? :\n")
-print(name+" is a fabulous name ")
+if name =="ten":
+    print ("your not allowed to enter the bar")
+    exit()
+elif name =="mkmk":
+    print("we're not a dm* supporter ****,so you can't enter the bar")
+    exit()
+else:
+    print(name+" is a fabulous name ")
 menu = ("1.coffee\n2.tea\n3.iced latte\n")
 print(("what can i get for today?\n"+menu))
 order= input("enter the order you want to order:\n")
