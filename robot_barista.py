@@ -15,7 +15,7 @@ if name =="mkmk":
 else:
     print(name+" is a fabulous name ")
     menu = ("1.coffee\n2.tea\n3.iced latte\n4.cappuccino\n5.americano\n6.mocha")
-    print(("what can i get for today?\n"+menu))
+    print(("what can i get for today and please enter the number of your choice?\n"+menu))
     order= input("enter the order you want to order:\n")
     if order > "6" or order< "1":
         print("sorry we don't have that item in our menu, please choose from the menu")
