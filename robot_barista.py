@@ -1,16 +1,18 @@
 
 print("hello,welcome to the vv bar!!!" )
 name=input("May i know your name? :\n")
-if name =="ten":
+if name =="ten" or name=="alice":
     evil_status =input("are you a supporter of the evil states? (yes/no):\n")
     if evil_status == "yes":
-     print ("your not allowed to enter the bar")
+     good_deeds = int(input("how many good deeds have you done today? :\n"))
+    if good_deeds <= 4:
+     print (name+" not allowed to enter the bar")
      exit()
     else:
      evil_status == "no"
-     print ("your welcaome to the bar the choicen one") 
+     print (name+" welcome to the bar the choicen one") 
 if name =="mkmk":
-     print("we're not a dm* supporter ****,so you can't enter the bar")
+     print("we're not a dm* supporter ****,so you can't enter the bar.")
      exit()
 else:
     print(name+" is a fabulous name ")
